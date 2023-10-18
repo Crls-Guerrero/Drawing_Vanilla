@@ -1,0 +1,146 @@
+body {
+    margin: 0;
+  }
+  .container {
+    width: 520px;
+    height: 695px;
+    background-color: #87ceea;
+    display: flex;
+    justify-content: center;
+    z-index: 0;
+  }
+  .cabeza {
+    display: flex;
+    width: 62%;
+    height: 80%;
+    background-color: #fed90f;
+    margin-top: 50px;
+    border: 3px solid #000;
+    border-radius: 50% 47% 10% 10% / 32% 32% 0% 0%;
+    flex-direction: column;
+    position: relative;
+    z-index: 100;
+  
+    box-shadow: -8px 9px 26px 4px rgba(0, 0, 0, 0.42);
+    -webkit-box-shadow: -8px 9px 26px 4px rgba(0, 0, 0, 0.42);
+    -moz-box-shadow: -8px 9px 26px 4px rgba(0, 0, 0, 0.42);
+  }
+  .cara {
+    width: 100%;
+    height: 180px;
+    margin-top: 210px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .ojos {
+    width: 160px;
+    height: 160px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    border: 3px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+  }
+  .ojos:nth-child(1) {
+    transform: translate(-10px);
+  }
+  .ojos:nth-child(2) {
+    transform: translate(10px);
+  }
+  .pupilas {
+    width: 18px;
+    height: 18px;
+    background-color: #000;
+    border-radius: 50%;
+  }
+  .nariz {
+    width: 78px;
+    height: 78px;
+    background-color: #fed90f;
+    border-radius: 50%;
+    border: 3px solid #000;
+    position: absolute;
+    top: 320px;
+    left: 120px;
+    z-index: 160;
+  }
+  .boca {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 362px;
+    height: 240px;
+    background-color: #d1b271;
+    transform: translateX(-23px) translateY(20px);
+    border: 3px solid #000;
+    border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;
+    position: absolute;
+    top: 360px;
+  }
+  .labios {
+    width: 240px;
+    height: 70px;
+    margin-top: 35px;
+    border-radius: 50% 54% 48% 56% / 0% 0% 60% 60%;
+    box-shadow: 0px 5px 0px -1px rgba(0, 0, 0, 1);
+    -webkit-box-shadow: 0px 5px 0px -1px rgba(0, 0, 0, 1);
+    -moz-box-shadow: 0px 5px 0px -1px rgba(0, 0, 0, 1);
+  }
+  .orejas {
+    width: 375px;
+    height: 72px;
+    background-color: #fed90f;
+    position: absolute;
+    top: 423px;
+    border: 3px solid #000;
+    border-radius: 23px 23px 50px 50px;
+    z-index: 1;
+  }
+  .cabello {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border-top: 4px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 101;
+    margin-top: 5px;
+  }
+  .pelos {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    border-top: 4px solid #000;
+    position: absolute;
+  }
+  
+  .boca::after {
+    content: "";
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    background-color: #fdda22;
+    bottom: 362px;
+    left: 10px;
+    border-left: 3px solid #000;
+    border-radius: 50%;
+    z-index: 1;
+  }
+  .boca::before {
+    content: "";
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    background-color: #fdda22;
+    bottom: 362px;
+    right: 10px;
+    border-right: 3px solid #000;
+    border-radius: 50%;
+    z-index: 1;
+  }
+  

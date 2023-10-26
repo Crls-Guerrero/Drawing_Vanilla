@@ -8,9 +8,13 @@
 body{
     height: 100vh;
     background-color:#3C8CE7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .calamardo{
-    width: auto;
+    width: 500px;
+    height: 500px;
     background-color: transparent;
     position: relative;
 }
@@ -18,9 +22,6 @@ body{
     width: 480px;
     height: 330px;
     background-color: #b6d0c7;
-    position: absolute;
-    top: 0;
-    left: 120px;  
     border: 2px solid black;
     border-radius: 50%;
     box-shadow: 3px 2px 94px -25px rgba(0,0,0,0.75);
@@ -33,7 +34,6 @@ body{
     background-color: #19523b;
     border-radius: 200px;
 }
-
 .cabeza .manchas:nth-child(1){
     position: absolute;
     top: 115px;
@@ -88,7 +88,7 @@ body{
     height: 170px;
     background-color: #fefbc9;
     border-radius: 50%;
-    border:2px solid black;
+    border-top: 2px solid black;
 }
 .ojos:nth-child(9){
     position: absolute;
@@ -103,13 +103,14 @@ body{
     z-index: 2;
 }
 .ojos .piel{
-    width: 110px;
-    height: 150px;
+    width: 115px;
+    height: 170px;
     border-top: 100px solid #b6d0c7;
     border-radius: 50%;
+    border-bottom: 2px solid black;
 }
 .ojos .pestana{
-    width: 112px;
+    width: 115px;
     height: 4px;
     background-color: black;
     position: absolute;
@@ -125,14 +126,13 @@ body{
     left: 36px;
     z-index: -1;
 }
-
 .cachetes{
     width: 220px;
     height: 100px;
     background-color: #b6d0c7;
     position: absolute;
     top: 310px;
-    left: 250px;
+    left: 133px;
     border-left: 2px solid black;
     border-right: 2px solid black;    
     z-index: 1;
@@ -152,8 +152,8 @@ body{
     height: 60px;
     background-color: #b6d0c7;
     position: relative;
-    top: 407px;
-    left: 200px;
+    top: 78px;
+    left: 80px;
     border: 2px solid black;
     border-radius: 20px;    
 }
